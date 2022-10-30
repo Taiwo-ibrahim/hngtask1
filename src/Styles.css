@@ -1,0 +1,346 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    position: relative;
+}
+
+.profile-body {
+    width: 1216px;
+    margin: 64px auto;
+}
+.profile-body-photo {
+    display: flex;
+    top: 0;
+    width: 88px;
+    height: 88px;
+    margin: 0 auto 8px;
+}
+.profile-body-text {
+    display: flex;
+    height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile-body-link {
+    position: absolute;
+    border: 1px dashed black;
+    top: -20px;  
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    cursor: pointer;
+    right: 208px;
+}
+.profile-body-link-second {
+    position: absolute;
+    border: 1px dashed black;
+    top: -20px;  
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    cursor: pointer;
+    right: 208px;
+    display: none;
+}
+.profile-btn {
+    margin-top: 56px;
+}
+.btn {
+    padding: 24px 525.5px;
+    margin-bottom: 8px;
+    width: 100%;
+    border: 1px solid #EAECF0;
+    background-color: #EAECF0;
+    cursor: pointer;
+}
+.btn a {
+    text-decoration: none;
+    color: black;
+    line-height: 28px;
+    font-size: 18px;
+    white-space: nowrap;
+
+}
+
+.socials-container {
+    width: 1216px;
+    margin-top: 16px;
+    margin-bottom: 64px;
+    display: flex;
+}
+.image-holder {
+    margin: 24px auto;
+}
+.image-holder .slack {
+    width: 24px;
+    height: 24px;
+    margin-right: 32px;
+}
+.image-holder .git {
+    width: 24px;
+    height: 24px;
+}
+.footer-container {
+    width: 1440px;
+}
+.footer-container-links {
+    width: 1280px;
+    margin: 48px 80px;
+}
+.footer-container-links-holder {
+    height: 32px;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+}
+.footer-container-links-holder p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #667085;
+}
+@media (max-width: 1000px){
+    .container {
+        position: relative;
+        width: 1000px;
+        margin: 0 auto;
+    }
+    
+    .profile-body {
+        width: 900px;
+        display: flex;
+        flex-direction: column;
+        margin: 60px auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-body-photo {
+        display: flex;
+        top: 0;
+        width: 88px;
+        height: 88px;
+        margin: 0 auto 8px;
+    }
+    .profile-body-text {
+        display: flex;
+        height: 30px;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        justify-content: center;
+        line-height: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .profile-body-link {
+        position: absolute;
+        border: 1px dashed black;
+        top: -20px;  
+        width: 40px;
+        border-radius: 50%;
+        height: 40px;
+        cursor: pointer;
+        right: 208px;
+    }
+    .profile-body-link-second {
+        position: absolute;
+        border: 1px dashed black;
+        top: -20px;  
+        width: 40px;
+        border-radius: 50%;
+        height: 40px;
+        cursor: pointer;
+        right: 208px;
+        display: none;
+    }
+    .profile-btn {
+        margin-top:  56px ;
+        /* width: 1000px; */
+        margin: 56px 40px;
+    }
+    .btn {
+        padding: 24px 400px;
+        margin-bottom: 8px;
+        width: 650px;
+        margin: 8px auto;
+        border: 1px solid #EAECF0;
+        background-color: #EAECF0;
+        cursor: pointer;
+    }
+    .btn a {
+        text-decoration: none;
+        color: black;
+        line-height: 28px;
+        font-size: 18px;
+        white-space: nowrap;
+    
+    }
+    
+    .socials-container {
+        width: 750px;
+        margin-top: 16px;
+        margin-bottom: 64px;
+        display: flex;
+    }
+    .image-holder {
+        margin: 24px auto;
+    }
+    .image-holder .slack {
+        width: 24px;
+        height: 24px;
+        margin-right: 32px;
+    }
+    .image-holder .git {
+        width: 24px;
+        height: 24px;
+    }
+    .footer-container {
+        width: 900px;
+    }
+    .footer-container-links {
+        width: 800px;
+        margin: 48px 80px;
+    }
+    .footer-container-links-holder {
+        height: 32px;
+        justify-content: space-between;
+        margin: auto;
+        display: flex;
+    }
+    .footer-container-links-holder p {
+        font-weight: 400;
+        font-size: 16px;
+        color: #667085;
+    }    
+}
+@media(max-width: 375px) {
+    .container {
+        width: 370px;
+    }
+    
+    .profile-body {
+        width: 370px;
+        margin: 64px auto;
+        position: relative;
+    }
+    .profile-body-photo {
+        display: flex;
+        top: 0;
+        width: 88px;
+        height: 88px;
+        margin: 0 auto 8px;
+        /* opacity: 0; */
+    }
+    .profile-body-photo :hover {
+        scale: 1.1;
+        background: linear-gradient(0deg, rgba(52, 64, 84, 0.75), rgba(52, 64, 84, 0.75));
+    }
+    .profile-body-text {
+        display: flex;
+        height: 30px;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        justify-content: center;
+        line-height: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .profile-body-link {
+        position: absolute;
+        border: 1px dashed black;
+        top: -20px;  
+        width: 40px;
+        border-radius: 50%;
+        height: 40px;
+        cursor: pointer;
+        right: 62px;
+        display: none;
+    }
+    .profile-body-link-second {
+        position: absolute;
+        border: 1px dashed black;
+        top: -20px;  
+        width: 40px;
+        border-radius: 50%;
+        height: 40px;
+        cursor: pointer;
+        right: 62px;
+        display: block;
+    }
+    .profile-btn {
+        margin: 56px auto 0;
+    }
+    .btn {
+        padding: 24px 32px;
+        margin: 8px auto;
+        width: 340px;
+        border: 1px solid #EAECF0;
+        background-color: #EAECF0;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .btn a {
+        display: flex;
+        text-decoration: none;
+        color: black;
+        line-height: 20px;
+        text-align: center;
+        justify-content: center;
+        font-weight: 500;
+        flex-wrap: none;
+        width: 64px;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    
+    .socials-container {
+        width: 375px;
+        margin-top: 16px;
+        margin-bottom: 32px;
+        display: flex;
+    }
+    .image-holder {
+        margin: 24px auto;
+    }
+    .image-holder .slack {
+        width: 24px;
+        height: 24px;
+        margin-right: 32px;
+    }
+    .image-holder .git {
+        width: 24px;
+        height: 24px;
+    }
+    .footer-container {
+        width: 375px;
+        padding: 32px 0;
+    }
+    .footer-container-links {
+        width: 375px;
+        height: 196px;
+    }
+    .footer-container-links-holder {
+        height: 32px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        max-width: 350px;
+        margin: 0;
+        padding: 0;
+    }
+    .footer-container-links-holder p {
+        font-weight: 400;
+        margin: 0;
+        font-size: 8px;
+        color: #667085;
+    }
+    .footer-container-links-holder img {
+        width: 250px;
+    }
+}
